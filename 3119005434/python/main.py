@@ -38,7 +38,6 @@ def input(file):  # 对文件进行预处理从而得到一个分词后的列表
 
 def replace_all_blank(value):
     result = re.sub('\W+', '', value).replace("_", '')
-    print(result)
     return result
 
 
